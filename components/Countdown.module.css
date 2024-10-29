@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #a33b39; /* Background outside the box */
+  padding: 2rem; /* Adds space around the frame box */
+  min-height: 100vh; /* Ensures the background covers the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #26232c;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #ff6f61;
+  margin-bottom: 1rem;
+}
+
+.countdown {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.image {
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #888;
+}
